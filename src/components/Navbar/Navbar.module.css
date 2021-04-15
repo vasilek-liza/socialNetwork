@@ -1,0 +1,15 @@
+.nav {
+    grid-area: n;
+    background-color: #ffb8c6;
+    font-size: 25px;
+    padding: 20px;
+  }
+  .navLink{
+    text-decoration: none;
+  }
+  .settings{
+   padding-top: 30px;
+  }
+.friends{
+  padding-top: 30px;
+}

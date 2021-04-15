@@ -1,0 +1,56 @@
+
+.dialogs {
+    background-color: #ffe0ee;
+    padding: 20px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas:
+    "m l i" ;
+    grid-template-columns: 7fr 1fr 9fr;
+
+    .line {
+        grid-area: l;
+        border-left: 8px solid  #ffb8c6; /* Параметры линии */ 
+        margin-left: 20px; /* Отступ слева */
+        padding-left: 10px;
+        max-width: 70px;
+        // border-radius: 5px;
+    }
+      
+};
+
+
+.messages { 
+    display: grid;
+    grid-gap: 10px;
+
+};
+.dialog{
+    color: #ff6080;
+    font-weight: bold;
+    margin: 20px;
+}
+.messagesItem {
+    grid-area: m;
+    padding:  10px;
+    text-decoration: none;
+};
+.messagePeople{
+    text-decoration: none;
+}
+hr{
+    border: none; 
+    background-color: grey; 
+    color:  grey; 
+    height: 2px; 
+    padding-right: 20px;
+}
+
+
+.messagesItem{
+    padding:  10px;
+    text-decoration: none;
+};
+.messagePeople{
+    text-decoration: none;
+}
